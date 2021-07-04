@@ -1,5 +1,5 @@
 # php-mktempdir
-Make a Temp directory in systemp with temp_name and auto removed.
+Make a Temp directory in SysTemp with temp_name and auto removed.
 
 ## mktempdir function 
 This package provides a function `mktempdir()` to your composer project.
