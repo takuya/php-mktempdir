@@ -1,0 +1,38 @@
+{
+    "name": "takuya/php-mktempdir",
+    "description": "make Temp directory in tmp with temp name and auto remove.",
+    "type": "library",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "takuya",
+            "email": "takuya.1st+nospam@gmail.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "src/helpers/mktempdir.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=7.0",
+        "takuya/php-rrmdir": "^1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5",
+        "ext-json": "*"
+    },
+    "repositories": {
+        "takuya/php-rrmdir": {
+            "type": "vcs",
+            "url": "https://github.com/takuya/php-rrmdir"
+        }
+    }
+}
