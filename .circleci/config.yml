@@ -84,4 +84,3 @@ jobs:
             cd /var/www/project &&
             sudo -u www-data php ./vendor/bin/phpunit --testsuite Units &&
             echo end;
-            
